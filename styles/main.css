@@ -1,0 +1,79 @@
+body {
+    background-color: #0C2747;
+}
+
+h1, h4, h5, h6, p, time, address {
+    color: white;
+}
+
+h1, h5, h6 {
+    text-align: center;
+}
+
+h4 {
+    margin: 30px 0;
+    font-weight: normal;
+}
+
+ul {
+    padding: 0;
+}
+
+#countriesCarousel {
+    margin: 50px 20%;
+    padding: 10px;
+    border: solid 1px white;
+}
+
+#countriesCarousel .owl-item {
+    padding: 10px;
+}
+
+#countriesCarousel .owl-item .card {
+    border: none;
+}
+
+#countriesCarousel h5, #countriesCarousel h6 {
+    color: black;
+}
+
+#countryDetails {
+    margin: 50px 30%;
+    padding: 10px;
+    border: solid 1px white;
+}
+
+#countryDetails img {
+    width: 100%;
+}
+
+#countryDetails p {
+    margin: 0;
+}
+
+#countryDetails p.neighbors {
+    margin: 30px 0;
+}
+
+#newsList {
+    margin: 50px 20%;
+    padding: 10px;
+    border: solid 1px white;
+}
+
+#newsList h4.no-news-label {
+    text-align: center;
+}
+
+#newsItem {
+    padding: 10px;
+    border: solid 1px white;
+}
+
+#newsItem img {
+    width: 100%;
+}
+
+#newsItem time, #newsItem address {
+    text-align: end;
+}

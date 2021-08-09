@@ -1,0 +1,14 @@
+<div id="countriesCarousel">
+	<div class="spinner-container d-flex justify-content-center">
+		<div class="spinner-border text-light" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+	<ul class="owl-carousel">
+		{{#pageCards}}
+		<li>
+			{{{pageCard}}}
+		</li>
+		{{/pageCards}}
+	</ul>
+</div>
